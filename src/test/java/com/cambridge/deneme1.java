@@ -14,8 +14,8 @@ public class deneme1 {
     public void first() throws InterruptedException {
 
         ArrayList<String> words=new ArrayList<>();
-        words.addAll(Arrays.asList("trickling","solely","coffers","merely","software testing craft"));
-        /*words.addAll(Arrays.asList("levied",
+       // words.addAll(Arrays.asList("trickling","solely","coffers","merely","software testing craft"));
+        words.addAll(Arrays.asList("levied",
                 "trickling" ,
                 "solely" ,
                 "coffers" ,
@@ -27,9 +27,7 @@ public class deneme1 {
                 "trivial","İllustrating" ,
                 "Comprehensive" ,
                 "retained" ,
-                "software testing craft" ,
                 "fallible" ,
-                "mired in confusing" ,
                 "inconsistent" ,
                 "propagate" ,
                 "precise" ,
@@ -41,12 +39,11 @@ public class deneme1 {
                 "propagate" ,
                 "misbehave" ,
                 "essence" ,
-                "venn diagram" ,
                 "orthogonal" ,
                 "nagging" ,
                 "postulate"));
 
-         */
+
 
 
         System.out.println(words.size());
@@ -56,16 +53,13 @@ public class deneme1 {
             //Driver.getDriver().findElement(By.id("onetrust-accept-btn-handler")).click();
             WebElement searchBox=Driver.getDriver().findElement(By.xpath("//input[@name='q'] "));
             searchBox.sendKeys(each+Keys.ENTER);
-/*try{
+
     WebElement defBox=Driver.getDriver().findElement(By.xpath("//div[@class='def ddef_d db'] "));
     System.out.println("\n"+each+"\n"+defBox.getText()+"\n"+Driver.getDriver().getCurrentUrl());
-    Driver.getDriver()
-}catch (NoSuchElementException e){
-    e.printStackTrace();
-    System.out.println("\n"+each+"\n"+Driver.getDriver().getCurrentUrl());
-}
 
- */
+
+
+
 
 
 
