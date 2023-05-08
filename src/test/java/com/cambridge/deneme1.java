@@ -7,8 +7,10 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
 import java.util.*;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class deneme1 {
+    static Scanner scanner=new Scanner(System.in);
      ArrayList<String> words=new ArrayList<>();
 
     @Test
@@ -23,8 +25,10 @@ public class deneme1 {
                 "merely" ,
                 "attorney",
                 "fallacy" ,
-                "thoroughly","feasible" ,
-                "trivial","İllustrating" ,
+                "thoroughly",
+                "feasible" ,
+                "trivial",
+                "İllustrating" ,
                 "Comprehensive" ,
                 "retained" ,
                 "fallible" ,
@@ -77,5 +81,76 @@ return words;
     System.out.println(getList());
 }
 
+public static CopyOnWriteArrayList<String> findingDups(CopyOnWriteArrayList<String> Newwords)  {
+        ArrayList<String> Pwords=new ArrayList<>();
+        Pwords.addAll(Arrays.asList("levied",
+                "trickling" ,
+                "solely" ,
+                "coffers" ,
+                "allotted" ,
+                "merely" ,
+                "attorney",
+                "fallacy" ,
+                "thoroughly",
+                "feasible" ,
+                "trivial",
+                "İllustrating" ,
+                "Comprehensive" ,
+                "retained" ,
+                "fallible" ,
+                "inconsistent" ,
+                "propagate" ,
+                "precise" ,
+                "amplified" ,
+                "magnified" ,
+                "elusive" ,
+                "commission " ,
+                "omission" ,
+                "propagate" ,
+                "misbehave" ,
+                "essence" ,
+                "orthogonal" ,
+                "nagging" ,
+                "postulate"));
+        for (String each:Pwords){
+            each=each.trim();
+            for (String Neach:Newwords){
+                    int i=0;
+
+                Neach=Neach.trim();
+
+try{
+    if (each.equalsIgnoreCase(Neach)){
+        System.out.println(Neach+" "+each+" are same");
+        Thread.sleep(150);
+        Newwords.remove(i);
+}
+}catch (InterruptedException e){
+
+
+
+
+
+                    //System.out.println(Neach+" "+each+" are same\n"+"Do you want to delete and continue?\n"+"If yes Type Yes If no Type No");
+                  /*String choise1=scanner.next();
+                  if (choise1.equalsIgnoreCase("Yes")){
+                      Newwords.remove(i);
+
+                  }
+
+                  if (choise1.equalsIgnoreCase("No")){
+                      break;
+                    }
+
+                   */
+
+                }
+                i++;
+            }
+        }
+    System.out.println("There you go with the unique list of words.\n↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓");
+return Newwords;
+
+}
 
 }

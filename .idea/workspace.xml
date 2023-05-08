@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61e15375-a1e0-4228-9b00-19651dee7ca7" name="Changes" comment="third commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cambridge/Ffindingunique.java" afterDir="false" />
+    <list default="true" id="61e15375-a1e0-4228-9b00-19651dee7ca7" name="Changes" comment="fourth commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cambridge/Ffindingunique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cambridge/Ffindingunique.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cambridge/deneme1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cambridge/deneme1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +60,7 @@
       <recent name="com.cambridge.utilies" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.deneme1.first">
+  <component name="RunManager" selected="JUnit.Ffindingunique.u1">
     <configuration name="Ffindingunique.u1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FindingDefs" />
       <extension name="coverage">
@@ -111,8 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.deneme1.first" />
         <item itemvalue="JUnit.Ffindingunique.u1" />
+        <item itemvalue="JUnit.deneme1.first" />
         <item itemvalue="JUnit.deneme1.two" />
       </list>
     </recent_temporary>
@@ -126,7 +126,8 @@
       <option name="presentableId" value="Default" />
       <updated>1683482893383</updated>
       <workItem from="1683482894760" duration="7111000" />
-      <workItem from="1683536557548" duration="4029000" />
+      <workItem from="1683536557548" duration="4616000" />
+      <workItem from="1683556575639" duration="2886000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1683489721020</created>
@@ -142,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683490011967</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fourth commit">
+      <created>1683542862991</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683542862991</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +159,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit" />
     <MESSAGE value="third commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
+    <MESSAGE value="fourth commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fourth commit" />
   </component>
 </project>
