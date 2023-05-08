@@ -6,14 +6,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class deneme1 {
+     ArrayList<String> words=new ArrayList<>();
+
     @Test
     public void first() throws InterruptedException {
 
-        ArrayList<String> words=new ArrayList<>();
        // words.addAll(Arrays.asList("trickling","solely","coffers","merely","software testing craft"));
         words.addAll(Arrays.asList("levied",
                 "trickling" ,
@@ -57,14 +57,8 @@ public class deneme1 {
     WebElement defBox=Driver.getDriver().findElement(By.xpath("//div[@class='def ddef_d db'] "));
     System.out.println("\n"+each+"\n"+defBox.getText()+"\n"+Driver.getDriver().getCurrentUrl());
 
-
-
-
-
-
-
-
         }
+
         /*Driver.getDriver().get("https://dictionary.cambridge.org/");
         Driver.getDriver().findElement(By.id("onetrust-accept-btn-handler")).click();
         WebElement searchBox=Driver.getDriver().findElement(By.xpath("//input[@name='q'] "));
@@ -72,5 +66,16 @@ public class deneme1 {
         System.out.println(Driver.getDriver().getCurrentUrl());
 
          */
+
     }
+    public  ArrayList<String> getList(){
+return words;
+    }
+
+@Test
+    public void two(){
+    System.out.println(getList());
+}
+
+
 }

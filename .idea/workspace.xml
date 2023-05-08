@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61e15375-a1e0-4228-9b00-19651dee7ca7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cambridge/utilies/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cambridge/utilies/Driver.java" afterDir="false" />
+    <list default="true" id="61e15375-a1e0-4228-9b00-19651dee7ca7" name="Changes" comment="third commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cambridge/Ffindingunique.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cambridge/deneme1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cambridge/deneme1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,25 +42,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.cambridge.utilies" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.deneme1.first">
+    <configuration name="Ffindingunique.u1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FindingDefs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cambridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cambridge" />
+      <option name="MAIN_CLASS_NAME" value="com.cambridge.Ffindingunique" />
+      <option name="METHOD_NAME" value="u1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="deneme1.first" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FindingDefs" />
       <extension name="coverage">
@@ -80,9 +93,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="deneme1.two" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FindingDefs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cambridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cambridge" />
+      <option name="MAIN_CLASS_NAME" value="com.cambridge.deneme1" />
+      <option name="METHOD_NAME" value="two" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.deneme1.first" />
+        <item itemvalue="JUnit.Ffindingunique.u1" />
+        <item itemvalue="JUnit.deneme1.two" />
       </list>
     </recent_temporary>
   </component>
@@ -94,11 +125,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683482893383</updated>
-      <workItem from="1683482894760" duration="6794000" />
+      <workItem from="1683482894760" duration="7111000" />
+      <workItem from="1683536557548" duration="4029000" />
     </task>
+    <task id="LOCAL-00001" summary="second commit">
+      <created>1683489721020</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683489721021</updated>
+    </task>
+    <task id="LOCAL-00002" summary="third commit">
+      <created>1683490011967</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683490011967</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second commit" />
+    <MESSAGE value="third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
   </component>
 </project>
