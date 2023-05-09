@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61e15375-a1e0-4228-9b00-19651dee7ca7" name="Changes" comment="fourth day successfull" />
+    <list default="true" id="61e15375-a1e0-4228-9b00-19651dee7ca7" name="Changes" comment="fourth day successfull">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cambridge/Ffindingunique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cambridge/Ffindingunique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cambridge/deneme1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cambridge/deneme1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +62,19 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.Ffindingunique.u1">
+    <configuration name="Ffindingunique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cambridge.Ffindingunique" />
+      <module name="FindingDefs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cambridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ffindingunique.u1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FindingDefs" />
       <extension name="coverage">
@@ -69,6 +86,22 @@
       <option name="PACKAGE_NAME" value="com.cambridge" />
       <option name="MAIN_CLASS_NAME" value="com.cambridge.Ffindingunique" />
       <option name="METHOD_NAME" value="u1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ffindingunique.u2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FindingDefs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cambridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cambridge" />
+      <option name="MAIN_CLASS_NAME" value="com.cambridge.Ffindingunique" />
+      <option name="METHOD_NAME" value="u2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,6 +142,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Ffindingunique.u1" />
+        <item itemvalue="JUnit.Ffindingunique.u2" />
+        <item itemvalue="Application.Ffindingunique" />
         <item itemvalue="JUnit.deneme1.first" />
         <item itemvalue="JUnit.deneme1.two" />
       </list>
@@ -125,7 +160,7 @@
       <workItem from="1683482894760" duration="7111000" />
       <workItem from="1683536557548" duration="4616000" />
       <workItem from="1683556575639" duration="3053000" />
-      <workItem from="1683633025982" duration="2523000" />
+      <workItem from="1683633025982" duration="4875000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1683489721020</created>
@@ -162,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683635441811</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fourth day successfull">
+      <created>1683635732223</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683635732223</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

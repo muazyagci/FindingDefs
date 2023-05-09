@@ -70,6 +70,22 @@ public class deneme1 {
          */
 
     }
+    public static void searchingWords(ArrayList<String> words){
+
+        System.out.println(words.size());
+        for (String each : words) {
+            Driver.getDriver().get("https://dictionary.cambridge.org/");
+
+            //Driver.getDriver().findElement(By.id("onetrust-accept-btn-handler")).click();
+            WebElement searchBox = Driver.getDriver().findElement(By.xpath("//input[@name='q'] "));
+            searchBox.sendKeys(each + Keys.ENTER);
+
+            WebElement defBox = Driver.getDriver().findElement(By.xpath("//div[@class='examp dexamp']"));
+            System.out.println("\n" + each + "\n" + defBox.getText() + "\n" + Driver.getDriver().getCurrentUrl());
+
+        }
+
+    }
 
     public ArrayList<String> getList() {
         return words;
@@ -122,8 +138,6 @@ public class deneme1 {
                 }
 
                  */
-
-
 
 
                 try {
